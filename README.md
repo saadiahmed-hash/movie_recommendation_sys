@@ -9,6 +9,12 @@ This repository contains a small project that explores association rule mining (
 - A Streamlit demo app is available in the `StreamLit/` folder for interactive exploration.
 - Reports are attached as PDFs (`report.pdf`, `MLFlow-report.pdf`).
 
+## Screenshot
+
+Below is a screenshot of the Streamlit app:
+
+![Streamlit app screenshot](./screenshot.jpeg)
+
 ## Repository structure
 
 - `train.ipynb` — Jupyter notebook that: loads MovieLens, filters ratings (>= 3.5), groups user favorite titles, encodes transactions and computes frequent itemsets with `mlxtend`'s `fpgrowth`/`apriori`, and generates association rules.
@@ -101,9 +107,18 @@ Adjust `min_support` and `max_len` if you want more/less patterns.
 - Add a small test or CI to verify the app starts and the notebook runs some minimal checks.
 - Convert the notebook to a scripted `.py` pipeline for reproducible runs.
 
-## Author / Contact
+## Author
 
-If you need help or want improvements, update the repo or open an issue. 
+Ahmed SAADI  
+Sidi Bel’abbes • saadi.ahmed.eng@gmail.com • 0541533015
+
+Education
+Higher School of Computer Science 08-MAI-1945 (ESI-SBA)  
+Sidi Bel Abbès, Algeria
+Engineering Degree and M2 – Specialization: Artificial Intelligence & Data Science  
+Expected Graduation: 2026
+
+Relevant Coursework: Computer Vision, Machine Learning, Deep Learning, Natural Language Processing, Data Science
 
 ---
 Generated: README to help onboard and run the project. If you'd like, I can also add a `LICENSE` and a short `CONTRIBUTING.md`.
